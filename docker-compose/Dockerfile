@@ -33,6 +33,6 @@ RUN set -xe; \
 
 WORKDIR $INSTALL_DIR
 
-VOLUME $GO_FASTDFS_DIR
+#VOLUME $GO_FASTDFS_DIR
 
 CMD ["fileserver", "server" , "${OPTS}"]
